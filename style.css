@@ -90,6 +90,7 @@ nav{
   color: white;
   font-size: 16px;
   font-size: 1.2em;
+  line-height: 30px;
 }
 
 .banner-content .button {
@@ -141,4 +142,66 @@ nav{
 .banner-right-btn:hover{
   border-color: red;
   background-color: black;
+}
+
+
+/* this is card section  */
+
+#learn{
+  padding-top: 36px;
+}
+
+#learn .learn-container{
+  width:59%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.section-heading{
+
+  justify-items: center;
+  margin: 0 auto;
+}
+.section-heading h1 {
+font-weight: 700;
+line-height: 30px;
+}
+.section-heading p{
+  font-weight: 400;
+  line-height: 20px;
+}
+#learn .learn-container .card-box{
+  display: flex;
+  gap:24px
+  
+}
+.card-box .card{
+  padding: 24px;
+  max-width: 300px;
+box-shadow: 0 6px 50px 0 #0000001f;
+
+}
+.card img{
+  max-width: 34px;
+  margin-bottom: 12px;
+  background-color:deeppink;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  
+
+}
+.card h3{
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+}
+.card h3 span{
+  margin-left: 5px;
+}
+.card p{
+  color: #627385;
+line-height: 20px;
+font-weight: 400;
+text-align: center;
 }
